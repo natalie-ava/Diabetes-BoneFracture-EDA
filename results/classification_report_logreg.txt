@@ -1,0 +1,17 @@
+Logistic Regression Classification Report
+
+Confusion Matrix:
+               Predicted: 0   Predicted: 1
+Actual: 0         455              0
+Actual: 1          51              0
+
+Classification Report:
+               precision    recall  f1-score   support
+         0       0.90       1.00      0.95       455
+         1       0.00       0.00      0.00        51
+
+    Accuracy                           0.90       506
+    Macro avg       0.45       0.50      0.47
+    Weighted avg    0.81       0.90      0.85
+
+Note: The model did not predict any fractures, resulting in perfect specificity but no sensitivity.

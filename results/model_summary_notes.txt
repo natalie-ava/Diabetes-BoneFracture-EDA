@@ -1,0 +1,12 @@
+Model Summary Notes
+
+- Both the logistic regression and random forest models achieved high overall accuracy (89–90%).
+- However, neither model was able to correctly classify a single fracture case (class 1), leading to zero recall and F1-score for that class.
+- This highlights a severe class imbalance problem, where the majority class (no fracture) dominates the model’s predictions.
+- Despite good performance on non-fracture cases, these models are not useful for identifying at-risk patients without additional improvements.
+
+Next Steps:
+- Apply resampling techniques (SMOTE, random oversampling)
+- Introduce additional features like fall history, BMI, or bone density
+- Test alternative models such as XGBoost or cost-sensitive classifiers
+- Evaluate performance using AUC and precision-recall curves

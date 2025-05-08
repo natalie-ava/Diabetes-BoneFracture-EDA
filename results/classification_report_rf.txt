@@ -1,0 +1,17 @@
+Random Forest Classification Report
+
+Confusion Matrix:
+               Predicted: 0   Predicted: 1
+Actual: 0         452              1
+Actual: 1          53              0
+
+Classification Report:
+               precision    recall  f1-score   support
+         0       0.90       1.00      0.94       453
+         1       0.00       0.00      0.00        53
+
+    Accuracy                           0.89       506
+    Macro avg       0.45       0.50      0.47
+    Weighted avg    0.80       0.89      0.84
+
+Note: The model correctly identified almost all non-fracture cases but failed to detect any actual fractures.
