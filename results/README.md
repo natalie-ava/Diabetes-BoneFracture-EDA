@@ -36,11 +36,11 @@ Like logistic regression, the random forest model failed to detect any fracture 
 
 ## Included Files
 
-- [classification_report_logreg.txt](https://github.com/natalie-ava/GoogleADA_Capstone/blob/main/results/classification_report_logreg.txt) — Evaluation metrics for the logistic regression model  
-- [classification_report_rf.txt](https://github.com/natalie-ava/GoogleADA_Capstone/blob/main/results/classification_report_rf.txt) — Evaluation metrics for the random forest model  
-- [LR_confusion_matrix.png](https://github.com/natalie-ava/GoogleADA_Capstone/blob/main/results/LR_confusion_matrix.png) — Confusion matrix visualization for logistic regression  
-- [RF_confusion_matrix.png](https://github.com/natalie-ava/GoogleADA_Capstone/blob/main/results/RF_confusion_matrix.png) — Confusion matrix visualization for random forest  
-- [model_summary_notes.txt](https://github.com/natalie-ava/GoogleADA_Capstone/blob/main/results/model_summary_notes.txt) — Summary of findings and model comparison notes
+- [classification_report_logreg.txt](https://github.com/natalie-ava/Diabetes-BoneFracture-EDA/blob/main/results/classification_report_logreg.txt) — Evaluation metrics for the logistic regression model  
+- [classification_report_rf.txt](https://github.com/natalie-ava/Diabetes-BoneFracture-EDA/blob/main/results/classification_report_rf.txt) — Evaluation metrics for the random forest model  
+- [LR_confusion_matrix.png](https://github.com/natalie-ava/Diabetes-BoneFracture-EDA/blob/main/results/LR_confusion_matrix.png) — Confusion matrix visualization for logistic regression  
+- [RF_confusion_matrix.png](https://github.com/natalie-ava/Diabetes-BoneFracture-EDA/blob/main/results/RF_confusion_matrix.png) — Confusion matrix visualization for random forest  
+- [model_summary_notes.txt](https://github.com/natalie-ava/Diabetes-BoneFracture-EDA/blob/main/results/model_summary_notes.txt) — Summary of findings and model comparison notes
 ---
 
 ## Conclusions
