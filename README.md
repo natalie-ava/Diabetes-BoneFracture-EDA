@@ -75,7 +75,7 @@ This model is intended solely for educational and exploratory purposes and shoul
 - `data/`: Folder with original and cleaned dataset 
 - `results/`: Folder for saved model outputs  
 
-## Technologies Used
+## Tools Used
 - Python  
 - pandas, NumPy  
 - scikit-learn  
