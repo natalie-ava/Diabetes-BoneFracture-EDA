@@ -7,32 +7,28 @@ This folder contains evaluation outputs and performance summaries from the predi
 ### Logistic Regression
 
 - **Accuracy:** 90%  
-- **Recall (Fracture Class):** 0.00
-  
-**Confusion Matrix:**
-  
-|               | Predicted: No Fracture | Predicted: Fracture |
-|---------------|--------------|--------------|
-| Actual: No Fracture     | 455          | 0            |
-| Actual: Fracture     | 51           | 0            |
+- **Precision (Fracture Class):** 0.00  
+- **Recall (Fracture Class):** 0.00  
+- **F1-Score (Fracture Class):** 0.00  
 
--  The model classified all fracture cases incorrectly as non-fractures, despite correctly identifying all non-fracture cases. This reflects perfect specificity but zero sensitivity.
+<p align="center">
+  <img src="https://github.com/natalie-ava/Diabetes-BoneFracture-EDA/blob/main/results/LR_confusion_matrix.png" width="600">
+</p>
+
+The logistic regression model correctly classified all non-fracture cases but failed to identify any fractures. While the model's accuracy appears high, this is misleading due to the complete absence of sensitivity. The model defaulted to predicting the majority class, triggering undefined precision warnings for the minority class (fractures).
 
 ### Random Forest (Baseline)
 
 - **Accuracy:** 89%  
-- **Recall (Fracture Class):** 0.00
-  
-**Confusion Matrix:**
-  
-|               | Predicted: No Fracture | Predicted: Fracture |
-|---------------|--------------|--------------|
-| Actual: No Fracture     | 452          | 1            |
-| Actual: Fracture     | 53           | 0            |
+- **Precision (Fracture Class):** 0.00  
+- **Recall (Fracture Class):** 0.00  
+- **F1-Score (Fracture Class):** 0.00  
 
-Like logistic regression, the random forest model failed to detect any fracture cases. It produced one false positive prediction for a non-fracture case.
+<p align="center">
+  <img src="https://github.com/natalie-ava/Diabetes-BoneFracture-EDA/blob/main/results/RF_confusion_matrix.png" width="600">
+</p>
 
----
+The random forest model correctly classified nearly all non-fracture cases but failed to identify any fractures. While the model's overall accuracy appears strong, this is misleading due to the complete lack of recall for the minority class. Like the logistic model, it defaulted to predicting the majority class, resulting in zero sensitivity and undefined precision for fracture cases.
 
 ## Included Files
 
