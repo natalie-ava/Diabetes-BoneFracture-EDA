@@ -71,7 +71,8 @@ This model is intended solely for educational and exploratory purposes and shoul
 
 ## Repository Contents
 - [`BoneFractureDataLab_Natalie.ipynb`](https://github.com/natalie-ava/Diabetes-BoneFracture-EDA/blob/main/BoneFractureDataLab_Natalie.ipynb): Full notebook with data cleaning, EDA, modeling, and evaluation  
-- `images/`: Folder for confusion matrices and plots  
+- `images/`: Folder for confusion matrices and plots
+- `data/`: Folder with original and cleaned dataset 
 - `results/`: Folder for saved model outputs  
 
 ## Technologies Used
