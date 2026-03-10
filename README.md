@@ -6,6 +6,14 @@ Part of a larger research effort, this project aims to predict bone fractures in
 ## Project Overview
 This project examines the relationship between diabetes, fracture prevalence, and bone health in a male population based in San Antonio, TX. It began as an exploratory data analysis focused on age- and race-based disparities and was later extended into a predictive modeling task. Multiple clinical datasets were merged and analyzed using Python to identify patterns and build models that predict the likelihood of a fracture based on key indicators such as vitamin D, calcium levels, A1C, testosterone, smoking status, and insulin use. The project demonstrates how EDA, statistical reasoning, and machine learning can be combined to support public health insights and risk prediction.
 
+## Research Presentation
+
+This research was presented at the Texas Undergraduate Mathematics Conference (TUMC), where I shared the exploratory analysis, modeling approach, and findings with an academic audience of undergraduate researchers and faculty. The presentation focused on the challenges of predicting rare clinical outcomes, particularly the impact of class imbalance on model performance when identifying fracture cases in diabetic populations.
+
+Presenting this work provided an opportunity to communicate technical results in an interdisciplinary setting and discuss the limitations of predictive modeling for rare health events.
+
+[Conference Presentation Slides](https://github.com/natalie-ava/Diabetes-BoneFracture-EDA/blob/main/TUMC2025_Presentation.pdf)
+
 ## Objectives
 This project aims to:
 - Clean and preprocess clinical data  
